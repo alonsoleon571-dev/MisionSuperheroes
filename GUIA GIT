@@ -1,0 +1,10 @@
+## Evidencia de gestión con GitHub
+```bash
+git clone https://github.com/usuario/nombre-repositorio.git
+cd nombre-repositorio
+
+## Pull Request
+git checkout -b nombre-rama
+git add .
+git commit -m "Cambios realizados en nombre-rama"
+git push origin nombre-rama
