@@ -35,47 +35,12 @@ Los estudiantes completan misiones en clase y desbloquean poderes que deben apli
 - Bonus si lo hacen con familia 
 - Variante: **Olimpiadas Escolares** → equipos ganan puntos en clase y fuera del colegio.  
 
----
-
-
-
-## Creación de repositorio local
+## Evidencia de gestión con GitHub
 ```bash
-mkdir MisionSuperheroes
-cd MisionSuperheroes
-git init
+git clone https://github.com/usuario/nombre-repositorio.git
+cd nombre-repositorio
 
-## Clonar un repositorio de GitHub
-git clone https://github.com/alonsoleon571@-dev/MisionSuperheroes.git
-cd MisionSuperheroes
-
-## Navegación básica por el repositorio
-ls
-cd carpeta
-git status
-
-## Primer commit
-echo "README.md inicial" > README.md
-git add README.md
-git commit -m "Commit inicial con README"
-
-## Visualizar historial de commits
-git log
-
-## Manejo de ramas (branches)
-git branch nombre-rama
-git checkout nombre-rama
-git checkout -b nombre-rama
-
-## Fusionar ramas (merge)
-git checkout main
-git merge nombre-rama
-
-## Resolución de conflictos
-git add archivo-conflictivo
-git commit -m "Resolución de conflicto"
-
-## Pull Request y revisión de código
+## Pull Request
 git checkout -b nombre-rama
 git add .
 git commit -m "Cambios realizados en nombre-rama"
